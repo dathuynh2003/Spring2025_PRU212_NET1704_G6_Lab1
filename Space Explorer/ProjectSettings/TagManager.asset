@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ship1
   - Ship2
+  - Enemy
   layers:
   - Default
   - TransparentFX

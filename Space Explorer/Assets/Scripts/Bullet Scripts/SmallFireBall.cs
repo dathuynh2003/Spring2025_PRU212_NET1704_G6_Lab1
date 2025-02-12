@@ -7,7 +7,7 @@ public class SmallFireBall : MonoBehaviour
     private Rigidbody2D myBody;
 
     private float maxY;
-
+    public int damage = 1; //// Each bullet deals 1 damage
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -34,6 +34,14 @@ public class SmallFireBall : MonoBehaviour
     {
         if (transform.position.y > maxY)
         {
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            other.GetComponent<Enemy>().TakeDamage(damage);
             Destroy(gameObject);
         }
     }
