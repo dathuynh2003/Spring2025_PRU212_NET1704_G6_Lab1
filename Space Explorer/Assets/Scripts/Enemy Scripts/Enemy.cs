@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
     {
         if (transform.position.y < minY)
         {
-            SceneManager.LoadScene("MainMenu");
+            Destroy(gameObject);
         }
     }
 
@@ -62,6 +62,19 @@ public class Enemy : MonoBehaviour
 
         Destroy(gameObject); // Destroy enemy
         GameManager.Instance.AddScore(1);
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ship1") || collision.CompareTag("Ship2") )
+        {
+            if (explosionEffect != null)
+            {
+                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            }
+
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     void OnGUI()
