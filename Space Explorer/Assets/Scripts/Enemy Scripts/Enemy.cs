@@ -1,13 +1,15 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
 
     public float enemySpeed;
     public int health;
+    private float minY;
     private Rigidbody2D myBody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] 
+    [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
 
     private void Awake()
@@ -17,10 +19,23 @@ public class Enemy : MonoBehaviour
         {
             health = Random.Range(3, 6); // random hp if not set in unity
         }
+
+        Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
+        minY = screenBounds.y;
+
     }
     void Start()
     {
         myBody.linearVelocity = new Vector2(0f, -enemySpeed);
+        
+    }
+
+    void Update()
+    {
+        if (transform.position.y < minY)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     // Update is called once per frame
@@ -46,6 +61,7 @@ public class Enemy : MonoBehaviour
         }
 
         Destroy(gameObject); // Destroy enemy
+        GameManager.Instance.AddScore(1);
     }
 
     void OnGUI()

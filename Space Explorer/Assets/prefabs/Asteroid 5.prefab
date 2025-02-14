@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7045230151163334252}
   - component: {fileID: 8813074833672269920}
   - component: {fileID: 6596247051199390605}
+  - component: {fileID: 3010011634881611345}
   m_Layer: 0
   m_Name: Asteroid 5
   m_TagString: Enemy
@@ -105,6 +106,7 @@ MonoBehaviour:
   enemySpeed: 1
   health: 10
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
+  scoreText: {fileID: 0}
 --- !u!50 &8813074833672269920
 Rigidbody2D:
   serializedVersion: 5
@@ -178,3 +180,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.06, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &3010011634881611345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094720567023545502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91118bf9fd2b1204c849d268d42c41e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: 0
+  health: 0
+  explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
+  scoreText: {fileID: 0}
