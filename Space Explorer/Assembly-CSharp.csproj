@@ -61,14 +61,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Bullet Scripts\SmallFireBall.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\BGScaler.cs" />
+    <Compile Include="Assets\Scripts\Drop Item Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Plane Scripts\PlaneSwitcher.cs" />
     <Compile Include="Assets\Scripts\Spawner Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Drop Item Scripts\SpawnItem.cs" />
     <Compile Include="Assets\Scripts\Plane Scripts\Plane.cs" />
     <Compile Include="Assets\Scripts\Plane Scripts\PlaneBound.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\BGScrolling.cs" />
+    <Compile Include="Assets\Scripts\Bullet Scripts\Bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

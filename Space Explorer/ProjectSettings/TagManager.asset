@@ -7,6 +7,7 @@ TagManager:
   - Ship1
   - Ship2
   - Enemy
+  - Upgrade Bullet Item
   layers:
   - Default
   - TransparentFX

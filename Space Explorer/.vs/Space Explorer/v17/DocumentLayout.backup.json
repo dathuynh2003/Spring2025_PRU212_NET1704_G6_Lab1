@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|d:\\workspace\\pru212\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscrolling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlaneSwitcher.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T04:53:58.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BGScrolling.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:57:45.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BGScaler.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:51:41.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SmallFireBall.cs",
               "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
               "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:31:37.041Z",
+              "WhenOpened": "2025-02-15T15:39:01.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "SpawnItem.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:47:46.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:39:28.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T15:47:02.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T14:52:32.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlaneSwitcher.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAvwDkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:53:58.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BGScrolling.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:57:45.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BGScaler.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T03:51:41.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlaneBound.cs",
               "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T14:32:35.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T14:32:35.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Plane.cs",
               "DocumentMoniker": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "ToolTip": "D:\\WorkSpace\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwD4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T13:55:49.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T13:55:49.73Z"
             }
           ]
         }

@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class SmallFireBall : MonoBehaviour
+public class Bullet : MonoBehaviour
 {
     public float fireballSpeed;
 
     private Rigidbody2D myBody;
 
     private float maxY;
-    public int damage = 1; //// Each bullet deals 1 damage
+    public float damage;
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
