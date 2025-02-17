@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -21,4 +22,5 @@ public class GameManager : MonoBehaviour
         score += amount;
         scoreText.text = "Score: " + score.ToString();
     }
+
 }

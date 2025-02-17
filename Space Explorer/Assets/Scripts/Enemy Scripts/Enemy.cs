@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Enemy : MonoBehaviour
 {
@@ -73,7 +74,8 @@ public class Enemy : MonoBehaviour
             }
 
             Destroy(collision.gameObject);
-            SceneManager.LoadScene("MainMenu");
+            PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 
