@@ -178,3 +178,4 @@ MonoBehaviour:
   enemySpeed: 1
   health: 7
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
+  scoreText: {fileID: 0}

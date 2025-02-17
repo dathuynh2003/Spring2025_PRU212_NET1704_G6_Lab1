@@ -1,13 +1,16 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Enemy : MonoBehaviour
 {
 
     public float enemySpeed;
     public float health;
+    private float minY;
     private Rigidbody2D myBody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] 
+    [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
 
     private void Awake()
@@ -17,10 +20,23 @@ public class Enemy : MonoBehaviour
         {
             health = Random.Range(3, 6); // random hp if not set in unity
         }
+
+        Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
+        minY = screenBounds.y;
+
     }
     void Start()
     {
         myBody.linearVelocity = new Vector2(0f, -enemySpeed);
+        
+    }
+
+    void Update()
+    {
+        if (transform.position.y < minY)
+        {
+            Destroy(gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -46,6 +62,21 @@ public class Enemy : MonoBehaviour
         }
 
         Destroy(gameObject); // Destroy enemy
+        GameManager.Instance.AddScore(1);
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ship1") || collision.CompareTag("Ship2") )
+        {
+            if (explosionEffect != null)
+            {
+                Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            }
+
+            Destroy(collision.gameObject);
+            PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+            SceneManager.LoadScene("GameOverScene");
+        }
     }
 
     void OnGUI()
