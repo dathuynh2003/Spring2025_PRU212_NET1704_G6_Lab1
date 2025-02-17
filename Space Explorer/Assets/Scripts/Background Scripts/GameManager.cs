@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
         scoreText.text = "Score: " + score.ToString();
-        PlayerPrefs.SetInt("PlayerScore", score);
     }
 
 }

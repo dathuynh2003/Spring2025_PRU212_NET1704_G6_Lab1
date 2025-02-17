@@ -11,10 +11,10 @@ public class GameOverManager : MonoBehaviour
     void Start()
     {
         // Hiển thị điểm số cuối cùng
-        scoreText.text = "Final Score: " + PlayerPrefs.GetInt("PlayerScore", 0);
+        scoreText.text = "Final " + PlayerPrefs.GetString("PlayerScore", "0");
 
         // Xử lý nút Play Again
-        playAgainButton.onClick.AddListener(() => SceneManager.LoadScene("MainMenu"));
+        playAgainButton.onClick.AddListener(() => PlayAgain());
         exitButton.onClick.AddListener(QuitGame);
     }
     void QuitGame()
@@ -23,4 +23,9 @@ public class GameOverManager : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false; 
         Application.Quit();
     }
+    void PlayAgain()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    // set player score to 0
 }

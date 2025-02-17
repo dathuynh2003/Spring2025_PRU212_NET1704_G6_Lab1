@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|e:\\semester_7\\pru212\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\background scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|e:\\semester_7\\pru212\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|e:\\semester_7\\pru212\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\background scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\gameovermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +19,12 @@
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\smallfireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,26 +90,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameOverManager.cs",
               "DocumentMoniker": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameOverManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\GameOverManager.cs",
               "ToolTip": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameOverManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\GameOverManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T03:06:00.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Enemy.cs",
               "DocumentMoniker": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
               "ToolTip": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwFQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T14:52:32.318Z",
               "EditorCaption": ""
@@ -124,8 +124,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T04:53:58.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T04:53:58.769Z"
             },
             {
               "$type": "Document",
@@ -137,12 +136,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:51:41.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T03:51:41.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SmallFireBall.cs",
               "DocumentMoniker": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
@@ -150,12 +148,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Bullet Scripts\\SmallFireBall.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:31:37.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T03:31:37.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlaneBound.cs",
               "DocumentMoniker": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
@@ -174,7 +171,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "ToolTip": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T13:55:49.73Z",
               "EditorCaption": ""
@@ -187,7 +184,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\GameManager.cs",
               "ToolTip": "E:\\SEMESTER_7\\PRU212\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T06:32:20.046Z",
               "EditorCaption": ""
@@ -202,8 +199,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA1wBEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T15:47:02.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T15:47:02.944Z"
             },
             {
               "$type": "Document",
@@ -215,8 +211,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T03:57:45.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T03:57:45.53Z"
             }
           ]
         },
