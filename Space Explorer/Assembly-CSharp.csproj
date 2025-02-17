@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Plane Scripts\PlaneSwitcher.cs" />
     <Compile Include="Assets\Scripts\Spawner Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Plane Scripts\Plane.cs" />
+    <Compile Include="Assets\Scripts\Background Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Plane Scripts\PlaneBound.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\BGScrolling.cs" />
   </ItemGroup>
