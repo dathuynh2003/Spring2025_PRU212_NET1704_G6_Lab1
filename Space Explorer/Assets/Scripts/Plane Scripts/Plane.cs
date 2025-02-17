@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Plane : MonoBehaviour
@@ -8,7 +9,8 @@ public class Plane : MonoBehaviour
     private Rigidbody2D myBody;
 
     [SerializeField]
-    private GameObject bullet;
+    private GameObject[] bullets;
+    private int bulletLevel = 1;
     private float lastShotime;
 
     private GameObject flame;
@@ -51,6 +53,12 @@ public class Plane : MonoBehaviour
             ToggleFlame(false);
         }
 
+        if (moveHorizontal != 0)
+        {
+            ToggleFlame(true);
+            transform.rotation = Quaternion.Euler(0, 0, 180 + -moveHorizontal * 30);
+        }
+
         // Move the plane
         myBody.linearVelocity = movement * planeSpeed;
     }
@@ -65,7 +73,7 @@ public class Plane : MonoBehaviour
         var bulletPos = new Vector3(transform.position.x, transform.position.y + (planeHeight / 2) + 0.1f, 0);
         if (Input.GetMouseButton(0) && Time.time >= lastShotime + shootCooldown)
         {
-            Instantiate(bullet, bulletPos, Quaternion.Euler(0, 0, 180));
+            Instantiate(bullets[Math.Min(bulletLevel, 4) - 1], bulletPos, Quaternion.Euler(0, 0, 180));
             lastShotime = Time.time;
         }
     }
@@ -77,5 +85,30 @@ public class Plane : MonoBehaviour
             flame.SetActive(isActive);
             //Debug.Log("Flame is active: " + isActive);
         }
+    }
+
+    private void UpgradeBullet()
+    {
+
+        bulletLevel++;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Upgrade Bullet Item"))
+        {
+            UpgradeBullet();
+            Destroy(other.gameObject);
+        }
+    }
+
+    public int GetBulletLevel()
+    {
+        return bulletLevel;
+    }
+
+    public void SetBulletLevel(int level)
+    {
+        bulletLevel = level;
     }
 }

@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
 
     public float enemySpeed;
-    public int health;
+    public float health;
     private float minY;
     private Rigidbody2D myBody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
     {
         //myBody.linearVelocity = new Vector2 (0f, -enemySpeed);
     }
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
         if (health <= 0)
