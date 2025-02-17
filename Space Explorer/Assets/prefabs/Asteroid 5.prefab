@@ -106,7 +106,6 @@ MonoBehaviour:
   enemySpeed: 1
   health: 10
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
-  scoreText: {fileID: 0}
 --- !u!50 &8813074833672269920
 Rigidbody2D:
   serializedVersion: 5
@@ -192,7 +191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91118bf9fd2b1204c849d268d42c41e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 0
+  enemySpeed: 0.5
   health: 0
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
-  scoreText: {fileID: 0}

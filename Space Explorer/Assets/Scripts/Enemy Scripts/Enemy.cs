@@ -58,7 +58,8 @@ public class Enemy : MonoBehaviour
         // Spawn explosion effect
         if (explosionEffect != null)
         {
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            var explosion =  Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            Destroy(explosion, 1f); // Destroy explosion effect after 1 second
         }
 
         Destroy(gameObject); // Destroy enemy
