@@ -108,6 +108,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Background Scripts\BGScrolling.cs" />
     <Compile Include="Assets\Scripts\Bullet Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Background Scripts\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

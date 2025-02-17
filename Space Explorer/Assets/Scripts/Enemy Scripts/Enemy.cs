@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
+    private AudioManager audioManager;
 
     private void Awake()
     {
@@ -23,6 +24,8 @@ public class Enemy : MonoBehaviour
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
         minY = screenBounds.y;
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
 
     }
     void Start()
@@ -49,6 +52,7 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            audioManager.PlaySFX(audioManager.explosion);
             Die();
         }
     }
@@ -74,9 +78,11 @@ public class Enemy : MonoBehaviour
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
             }
 
+            audioManager.PlaySFX(audioManager.gameOver);
             Destroy(collision.gameObject);
             PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
             SceneManager.LoadScene("GameOverScene");
+            
         }
     }
 
