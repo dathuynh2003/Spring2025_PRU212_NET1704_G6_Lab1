@@ -73,7 +73,7 @@ public class Enemy : MonoBehaviour
             }
 
             Destroy(collision.gameObject);
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 
