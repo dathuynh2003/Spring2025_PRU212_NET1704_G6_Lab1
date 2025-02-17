@@ -8,6 +8,7 @@ TagManager:
   - Ship2
   - Enemy
   - Upgrade Bullet Item
+  - Audio
   layers:
   - Default
   - TransparentFX
