@@ -7,11 +7,15 @@ A. Game Concept:
 
 B. Game Elements:
   1. Spaceship (Player Object):
-    - Description:
+
+     - Description:
       A 2D spaceship controlled by the player.
-    - Functionality:
+
+     - Functionality:
         + Movement in all directions using arrow keys.
+        
         + Shooting lasers.
+        
         + Change the plane type
   2. Asteroids:
     - Description:
@@ -19,6 +23,7 @@ B. Game Elements:
     - Functionality:
       + Move randomly in the scene.
       + Collisions with asteroids deduct points.
+  
   3. Stars:
     - Description:
         2D stars scattered in space.
@@ -29,6 +34,7 @@ C. Game Flow:
   1. Main Menu Scene:
     + Play Button: Transitions to the Gameplay Scene.
     + Exit Button
+  
   2. Gameplay Scene:
     
       2.1. Game Elements:
