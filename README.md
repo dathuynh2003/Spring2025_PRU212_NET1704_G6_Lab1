@@ -31,15 +31,15 @@ C. Game Flow:
     + Exit Button
   2. Gameplay Scene:
     
-    2.1. Game Elements:
-      Spaceship, Asteroids, Stars.
+      2.1. Game Elements:
+        Spaceship, Asteroids, Stars.
     
-    2.2. Objective:
-      + Navigate the spaceship, avoid asteroids, and collect stars for points.
-      + Game ends if the spaceship collides with an asteroid.
+      2.2. Objective:
+        + Navigate the spaceship, avoid asteroids, and collect stars for points.
+        + Game ends if the spaceship collides with an asteroid.
     
-    2.3. UI Elements:
-      Score display.
+      2.3. UI Elements:
+        Score display.
     
   3. End Game Scene:
     + Displays the player's score.
