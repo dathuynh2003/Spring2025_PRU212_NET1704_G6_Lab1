@@ -32,7 +32,7 @@ Game Flow:
 2. Gameplay Scene:
   
   Game Elements:
-    Spaceship, Asteroids (chỉnh rotation khi nó rơi xuống), Stars.
+    Spaceship, Asteroids, Stars.
   
   Objective:
     + Navigate the spaceship, avoid asteroids, and collect stars for points.
@@ -40,6 +40,7 @@ Game Flow:
   
   UI Elements:
     Score display.
+    
 3. End Game Scene:
 + Displays the player's score.
 + Options to return to the main menu or quit the game.
