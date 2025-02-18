@@ -1,52 +1,59 @@
-# Spring2025_PRU212_NET1704_G6_Lab1
-Lab1: 
-2D Unity Game: Space Explorer
+# **Lab 1: 2D Unity Game – Space Explorer**  
 
-A. Game Concept:
-  The player controls a spaceship in space, navigating through asteroids while collecting stars for points. 
+## **A. Game Concept**  
+*Space Explorer* is a 2D space-themed game where the player controls a spaceship, navigating through space while avoiding asteroids and collecting stars to enhance their shooting ability.  
 
-B. Game Elements:
-  1. Spaceship (Player Object):
+## **B. Game Elements**  
 
-     - Description:
-      A 2D spaceship controlled by the player.
+### **1. Spaceship (Player Object)**  
+- **Description:**  
+  A 2D spaceship that the player controls.  
 
-     - Functionality:
-        + Movement in all directions using arrow keys.
-        
-        + Shooting lasers.
-        
-        + Change the plane type
-  2. Asteroids:
-    - Description:
-        2D asteroids floating in space.
-    - Functionality:
-      + Move randomly in the scene.
-      + Collisions with asteroids deduct points.
-  
-  3. Stars:
-    - Description:
-        2D stars scattered in space.
-    - Functionality:
-        Collecting stars makes the shootings stronger.
+- **Functionality:**  
+  - Move in all directions using the arrow keys.  
+  - Shoot lasers to destroy obstacles using left mouse button.  
+  - Change the spaceship type using right mouse button.  
 
-C. Game Flow:
-  1. Main Menu Scene:
-    + Play Button: Transitions to the Gameplay Scene.
-    + Exit Button
-  
-  2. Gameplay Scene:
-    
-      2.1. Game Elements:
-        Spaceship, Asteroids, Stars.
-    
-      2.2. Objective:
-        + Navigate the spaceship, avoid asteroids, and collect stars for points.
-        + Game ends if the spaceship collides with an asteroid.
-    
-      2.3. UI Elements:
-        Score display.
-    
-  3. End Game Scene:
-    + Displays the player's score.
-    + Options to return to the main menu or quit the game.
+### **2. Asteroids**  
+- **Description:**  
+  Floating 2D asteroids appearing randomly in space.  
+
+- **Functionality:**  
+  - Move unpredictably within the scene.  
+  - Colliding with an asteroid reduces the player's score.  
+  - If the spaceship collides with an asteroid, the game ends.  
+
+### **3. Stars**  
+- **Description:**  
+  Collectible 2D stars scattered throughout space.  
+
+- **Functionality:**  
+  - Increase the player's shooting power when collected.  
+  - Enhance the gameplay experience by rewarding exploration.  
+
+## **C. Game Flow**  
+
+### **1. Main Menu Scene**  
+- **Play Button:** Starts the game and transitions to the Gameplay Scene.  
+- **Exit Button:** Closes the game.  
+
+### **2. Gameplay Scene**  
+
+#### **2.1 Game Elements**  
+- Spaceship (player).  
+- Asteroids (obstacles).  
+- Stars (collectibles).  
+
+#### **2.2 Objective**  
+- Navigate the spaceship while avoiding asteroids.  
+- Collect stars to improve shooting abilities.  
+- The game ends when the spaceship collides with an asteroid.  
+
+#### **2.3 UI Elements**  
+- Score display to track the player's progress.  
+
+### **3. End Game Scene**  
+- Displays the player's final score.  
+- Provides options to:  
+  - **Return to Main Menu:** Restart the game.  
+  - **Quit the Game:** Exit the application.  
