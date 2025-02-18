@@ -30,13 +30,16 @@ Game Flow:
   + Play Button: Transitions to the Gameplay Scene.
   + Exit Button
 2. Gameplay Scene:
+  
   Game Elements:
     Spaceship, Asteroids (chỉnh rotation khi nó rơi xuống), Stars.
+  
   Objective:
     + Navigate the spaceship, avoid asteroids, and collect stars for points.
     + Game ends if the spaceship collides with an asteroid.
+  
   UI Elements:
-  Score display.
+    Score display.
 3. End Game Scene:
 + Displays the player's score.
 + Options to return to the main menu or quit the game.
