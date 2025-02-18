@@ -1,7 +1,7 @@
 # **Lab 1: 2D Unity Game – Space Explorer**  
 
 ## **A. Game Concept**  
-*Space Explorer* is a 2D space-themed game where the player controls a spaceship, navigating through space while avoiding asteroids and collecting stars to enhance their shooting ability.  
+*Space Explorer* is a 2D space-themed game built in Unity 6, where the player controls a spaceship, navigating through space while avoiding asteroids and collecting stars to enhance their shooting ability.  
 
 ## **B. Game Elements**  
 
