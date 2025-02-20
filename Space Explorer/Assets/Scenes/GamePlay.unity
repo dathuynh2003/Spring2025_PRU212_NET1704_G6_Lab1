@@ -426,11 +426,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -818
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 490
+      value: 221
       objectReference: {fileID: 0}
     - target: {fileID: 7440429397607384770, guid: 29912c6bba583b949ab745b282061ad3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -792,6 +792,7 @@ GameObject:
   - component: {fileID: 1259075730}
   - component: {fileID: 1259075732}
   - component: {fileID: 1259075733}
+  - component: {fileID: 1259075734}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -857,6 +858,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1674092410}
+--- !u!114 &1259075734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259075729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8527acc01d3378b42bce81f38cf670a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 10
+  items:
+  - {fileID: 7067626236180375052, guid: e51143ddbd186ea4cad611736de63f01, type: 3}
 --- !u!1 &1330075709
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,7 +1000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d697ba215bc8de47b75414962ce122e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: 0.3
+  scrollSpeed: 0.2
 --- !u!114 &1711752642
 MonoBehaviour:
   m_ObjectHideFlags: 0
