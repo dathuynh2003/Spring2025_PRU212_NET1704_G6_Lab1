@@ -74,3 +74,7 @@ Library/Timeline/
 
 # Ignore any files you don't want to track manually
 
+Space Explorer/.vs/Space Explorer/v17/DocumentLayout.json
+/Space Explorer/obj
+/Space Explorer/obj
+/Space Explorer/UserSettings
