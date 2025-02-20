@@ -2,7 +2,15 @@ using UnityEngine;
 
 public class MainMenuController : MonoBehaviour
 {
-   public void PlayGameButton()
+    public GameObject mainPanel;
+    public GameObject infoPanel;
+
+    private void Start()
+    {
+        mainPanel.SetActive(true);
+        infoPanel.SetActive(false);
+    }
+    public void PlayGameButton()
     {
         Application.LoadLevel("GamePlay");
     }
@@ -10,4 +18,15 @@ public class MainMenuController : MonoBehaviour
     {
         Application.Quit();
     }
+    public void InfoButton()
+    {
+        mainPanel.SetActive(false );
+        infoPanel.SetActive(true);
+    }
+    public void BackBtton()
+    {
+        mainPanel.SetActive(true);
+        infoPanel.SetActive(false);
+    }
+
 }
