@@ -168,3 +168,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireballSpeed: 4
   damage: 1.5
+  fireSound: {fileID: 8300000, guid: 097c8ee03251aa248bba65cca72bbbdd, type: 3}
+  hitSound: {fileID: 8300000, guid: 100e7062e2ccaef46a055be4fd5fb216, type: 3}
