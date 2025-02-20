@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
 
     public float enemySpeed;
     public float health;
+    public int scoreValue;
     private float minY;
     private Rigidbody2D myBody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -32,7 +33,7 @@ public class Enemy : MonoBehaviour
         }
         if (isFollowingPlayer == 0)
         {
-            isFollowingPlayer = Random.Range(-3, 5);
+            isFollowingPlayer = UnityEngine.Random.Range(-3, 5);
         }
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
@@ -55,7 +56,10 @@ public class Enemy : MonoBehaviour
     {
         if (isFollowingPlayer >0)
         {
-            FollowPlayer();
+            if (player != null)
+            {
+                FollowPlayer();
+            }
         }
         if (transform.position.y < minY)
         {
@@ -82,7 +86,7 @@ public class Enemy : MonoBehaviour
     private void FollowPlayer()
     {
         Vector2 direction = player.transform.position - transform.position; // Calculate the direction to the player
-        Vector2 moveDirection = direction.normalized; // Normalize the direction
+        Vector2 moveDirection = new Vector2(direction.x, -1).normalized; // Normalize the direction, horizontal and vertical movement
         Vector2 targetPosition = (Vector2)transform.position + moveDirection * enemySpeed * Time.deltaTime; // Calculate the target position
 
         transform.position = targetPosition; // Move the enemy to the target position
@@ -99,16 +103,16 @@ public class Enemy : MonoBehaviour
 
         Destroy(gameObject); // Destroy enemy
 
-        BoxCollider2D boxCollider = GetComponent<BoxCollider2D>();
-        float sizeX = boxCollider.size.x;
-        float sizeY = boxCollider.size.y;
+        //PolygonCollider2D boxCollider = GetComponent<PolygonCollider2D>();
+        //float sizeX = boxCollider.size.x;
+        //float sizeY = boxCollider.size.y;
 
-        int scoreValue = 1; // Default score value
+        //int scoreValue = 1; // Default score value
 
-        if (sizeX == 1.06f && sizeY == 0.96f)
-        {
-            scoreValue = 2;
-        }
+        //if (sizeX == 1.06f && sizeY == 0.96f)
+        //{
+        //    scoreValue = 2;
+        //}
 
         GameManager.Instance.AddScore(scoreValue);
     }
@@ -124,6 +128,7 @@ public class Enemy : MonoBehaviour
             if (blowSound != null)
             {
                 StartCoroutine(PlayBlowSoundThenGameOver(collision.gameObject));
+                Destroy(collision.gameObject);
             }
             else
             {
@@ -156,7 +161,7 @@ public class Enemy : MonoBehaviour
     // Hàm xử lý Game Over
     void GameOver(GameObject playerShip)
     {
-        Destroy(playerShip); // Hủy tàu người chơi
+        //Destroy(playerShip); // Hủy tàu người chơi
         PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
         SceneManager.LoadScene("GameOverScene"); // Chuyển màn hình Game Over
     }

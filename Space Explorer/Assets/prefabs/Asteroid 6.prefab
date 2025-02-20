@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8770798775007927431}
   - component: {fileID: 4115758137455030706}
   - component: {fileID: 9004554071940256325}
+  - component: {fileID: 5819724813258834266}
   m_Layer: 0
   m_Name: Asteroid 6
   m_TagString: Enemy
@@ -97,7 +98,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8260198210157617683}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -177,5 +178,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemySpeed: 1
   health: 7
+  scoreValue: 1
   explosionEffect: {fileID: 1867891735910646588, guid: c81889263190e1841b7e724f30ad75c1, type: 3}
+  player: {fileID: 0}
   blowSound: {fileID: 8300000, guid: e2370de9cc9c15b44aeaf900d2577992, type: 3}
+--- !u!60 &5819724813258834266
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260198210157617683}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.67, y: 0.6}
+    newSize: {x: 0.67, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19271308, y: 0.15511435}
+      - {x: 0.08360709, y: 0.2465488}
+      - {x: -0.069659114, y: 0.3019864}
+      - {x: -0.12867981, y: 0.29686072}
+      - {x: -0.17440927, y: 0.25377277}
+      - {x: -0.20816219, y: 0.18986435}
+      - {x: -0.28507197, y: 0.13870355}
+      - {x: -0.32585233, y: 0.07313928}
+      - {x: -0.34125292, y: 0.024087287}
+      - {x: -0.33499998, y: -0.04}
+      - {x: -0.30213088, y: -0.10085238}
+      - {x: -0.104504704, y: -0.2263188}
+      - {x: -0.021735132, y: -0.2787518}
+      - {x: 0.058549047, y: -0.2895635}
+      - {x: 0.118919015, y: -0.2785655}
+      - {x: 0.23238674, y: -0.28523263}
+      - {x: 0.2770189, y: -0.2638066}
+      - {x: 0.31955785, y: -0.20713095}
+      - {x: 0.32979524, y: -0.15856904}
+      - {x: 0.32585233, y: -0.089999996}
+      - {x: 0.29298335, y: -0.0014345106}
+  m_UseDelaunayMesh: 0
