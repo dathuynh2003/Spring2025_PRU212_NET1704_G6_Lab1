@@ -1,4 +1,5 @@
 using System;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -14,7 +15,10 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
     private AudioManager audioManager;
-
+    private int isFollowingPlayer;
+    [SerializeField]private Plane player;
+    public AudioClip blowSound;
+    private AudioSource audioSource;
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -22,11 +26,21 @@ public class Enemy : MonoBehaviour
         int currentLevel = GameManager.Instance.GetLevel();
 
         health = UnityEngine.Random.Range(3, 6) + currentLevel * 2; // random hp if not set in unity
+        if (!player)
+        {
+            player = GameObject.FindAnyObjectByType<Plane>();
+        }
+        if (isFollowingPlayer == 0)
+        {
+            isFollowingPlayer = Random.Range(-3, 5);
+        }
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
         minY = screenBounds.y;
-
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
 
     }
     void Start()
@@ -39,10 +53,15 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (isFollowingPlayer >0)
+        {
+            FollowPlayer();
+        }
         if (transform.position.y < minY)
         {
             Destroy(gameObject);
         }
+
     }
 
     // Update is called once per frame
@@ -58,6 +77,15 @@ public class Enemy : MonoBehaviour
             audioManager.PlaySFX(audioManager.explosion);
             Die();
         }
+    }
+
+    private void FollowPlayer()
+    {
+        Vector2 direction = player.transform.position - transform.position; // Calculate the direction to the player
+        Vector2 moveDirection = direction.normalized; // Normalize the direction
+        Vector2 targetPosition = (Vector2)transform.position + moveDirection * enemySpeed * Time.deltaTime; // Calculate the target position
+
+        transform.position = targetPosition; // Move the enemy to the target position
     }
 
     void Die()
@@ -93,13 +121,46 @@ public class Enemy : MonoBehaviour
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
             }
 
-            audioManager.PlaySFX(audioManager.gameOver);
-            Destroy(collision.gameObject);
-            PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
-            SceneManager.LoadScene("GameOverScene");
-            
+            if (blowSound != null)
+            {
+                StartCoroutine(PlayBlowSoundThenGameOver(collision.gameObject));
+            }
+            else
+            {
+                GameOver(collision.gameObject);
+            }
+            //audioManager.PlaySFX(audioManager.gameOver);
+            //Destroy(collision.gameObject);
+            //PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+            //SceneManager.LoadScene("GameOverScene");
+
         }
     }
+
+
+
+    // Coroutine chờ âm thanh nổ phát xong rồi mới phát âm thanh gameOver
+    IEnumerator PlayBlowSoundThenGameOver(GameObject playerShip)
+    {
+        audioSource.clip = blowSound;
+        audioSource.volume = 3.0f;
+        audioSource.Play();
+
+        // Chờ đúng thời gian của âm thanh
+        yield return new WaitForSeconds(1);
+
+        // Sau khi âm thanh phát xong, mới vào màn hình Game Over
+        GameOver(playerShip);
+    }
+
+    // Hàm xử lý Game Over
+    void GameOver(GameObject playerShip)
+    {
+        Destroy(playerShip); // Hủy tàu người chơi
+        PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+        SceneManager.LoadScene("GameOverScene"); // Chuyển màn hình Game Over
+    }
+
 
     void OnGUI()
     {
