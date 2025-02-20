@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -17,10 +18,10 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
-        if (health <= 0)
-        {
-            health = Random.Range(3, 6); // random hp if not set in unity
-        }
+
+        int currentLevel = GameManager.Instance.GetLevel();
+
+        health = UnityEngine.Random.Range(3, 6) + currentLevel * 2; // random hp if not set in unity
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
         minY = screenBounds.y;
@@ -30,6 +31,8 @@ public class Enemy : MonoBehaviour
     }
     void Start()
     {
+        int currentLevel = GameManager.Instance.GetLevel();
+        enemySpeed += currentLevel * 0.7f; // Increase enemy speed by 0.7 each level
         myBody.linearVelocity = new Vector2(0f, -enemySpeed);
         
     }
@@ -67,7 +70,19 @@ public class Enemy : MonoBehaviour
         }
 
         Destroy(gameObject); // Destroy enemy
-        GameManager.Instance.AddScore(1);
+
+        BoxCollider2D boxCollider = GetComponent<BoxCollider2D>();
+        float sizeX = boxCollider.size.x;
+        float sizeY = boxCollider.size.y;
+
+        int scoreValue = 1; // Default score value
+
+        if (sizeX == 1.06f && sizeY == 0.96f)
+        {
+            scoreValue = 2;
+        }
+
+        GameManager.Instance.AddScore(scoreValue);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {

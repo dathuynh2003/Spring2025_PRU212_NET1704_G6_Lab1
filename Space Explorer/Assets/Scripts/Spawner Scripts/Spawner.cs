@@ -26,17 +26,22 @@ public class Spawner : MonoBehaviour
 
     IEnumerator SpawnerEnemy()
     {
+        int currentLevel = GameManager.Instance.GetLevel();
+        float spawnRate = Mathf.Clamp(4f - currentLevel * 0.3f, 0.5f, 4f);
+
         yield return new WaitForSeconds(Random.Range(1f, 4f));
-        float minX = transform.position.x - (box.bounds.size.x / 2f);
-        float maxX = transform.position.x + (box.bounds.size.x / 2f);
-        Vector3 spawnPosition = transform.position;
-        spawnPosition.x = Random.Range(minX, maxX); // Randomize within bounds
 
-        // Pick a random enemy from the array
-        GameObject randomEnemy = enemies[Random.Range(0, enemies.Length)];
+        int enemiesToSpawn = 1 + (currentLevel / 3); // Each level, spawn 1 more enemy
+        for (int i = 0; i < enemiesToSpawn; i++)
+        {
+            float minX = transform.position.x - (box.bounds.size.x / 2f);
+            float maxX = transform.position.x + (box.bounds.size.x / 2f);
+            Vector3 spawnPosition = transform.position;
+            spawnPosition.x = Random.Range(minX, maxX);
 
-        // Spawn the selected enemy
-        Instantiate(randomEnemy, spawnPosition, Quaternion.identity);
+            GameObject randomEnemy = enemies[Random.Range(0, enemies.Length)];
+            Instantiate(randomEnemy, spawnPosition, Quaternion.identity);
+        }
 
         StartCoroutine(SpawnerEnemy()); // Restart coroutine
     }
