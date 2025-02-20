@@ -1,3 +1,4 @@
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
@@ -13,7 +14,8 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
     private AudioManager audioManager;
-
+    public AudioClip blowSound;
+    private AudioSource audioSource;
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
@@ -24,8 +26,10 @@ public class Enemy : MonoBehaviour
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
         minY = screenBounds.y;
-
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
 
     }
     void Start()
@@ -78,13 +82,46 @@ public class Enemy : MonoBehaviour
                 Instantiate(explosionEffect, transform.position, Quaternion.identity);
             }
 
-            audioManager.PlaySFX(audioManager.gameOver);
-            Destroy(collision.gameObject);
-            PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
-            SceneManager.LoadScene("GameOverScene");
-            
+            if (blowSound != null)
+            {
+                StartCoroutine(PlayBlowSoundThenGameOver(collision.gameObject));
+            }
+            else
+            {
+                GameOver(collision.gameObject);
+            }
+            //audioManager.PlaySFX(audioManager.gameOver);
+            //Destroy(collision.gameObject);
+            //PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+            //SceneManager.LoadScene("GameOverScene");
+
         }
     }
+
+
+
+    // Coroutine chờ âm thanh nổ phát xong rồi mới phát âm thanh gameOver
+    IEnumerator PlayBlowSoundThenGameOver(GameObject playerShip)
+    {
+        audioSource.clip = blowSound;
+        audioSource.volume = 3.0f;
+        audioSource.Play();
+
+        // Chờ đúng thời gian của âm thanh
+        yield return new WaitForSeconds(1);
+
+        // Sau khi âm thanh phát xong, mới vào màn hình Game Over
+        GameOver(playerShip);
+    }
+
+    // Hàm xử lý Game Over
+    void GameOver(GameObject playerShip)
+    {
+        Destroy(playerShip); // Hủy tàu người chơi
+        PlayerPrefs.SetString("PlayerScore", GameManager.Instance.scoreText.text);
+        SceneManager.LoadScene("GameOverScene"); // Chuyển màn hình Game Over
+    }
+
 
     void OnGUI()
     {

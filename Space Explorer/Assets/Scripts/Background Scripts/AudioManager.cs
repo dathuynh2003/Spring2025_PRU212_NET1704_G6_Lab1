@@ -22,4 +22,5 @@ public class AudioManager : MonoBehaviour
         vfxAudioSource.clip = sfxClip;
         vfxAudioSource.PlayOneShot(sfxClip);
     }
+
 }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class Plane : MonoBehaviour
@@ -14,6 +14,8 @@ public class Plane : MonoBehaviour
     private float lastShotime;
 
     private GameObject flame;
+
+
 
     private void Awake()
     {
