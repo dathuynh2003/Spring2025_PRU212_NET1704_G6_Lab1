@@ -1,54 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\",
+  "WorkspaceRootPath": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\bullet scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|d:\\gitprivate\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\controller scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|d:\\githubproject\\spring2025_pru212_net1704_g6_lab1\\space explorer\\assets\\scripts\\controller scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscrolling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscrolling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\planeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\bullet scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drop item scripts\\spawnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\planebound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscaler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\plane scripts\\planeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plane scripts\\planeswitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\background scripts\\bgscrolling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\background scripts\\bgscrolling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC1A78-3543-BD20-FE20-892D30D69C34}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawner scripts\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,156 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainMenuController.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller Scripts\\MainMenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T11:18:39.996Z"
+              "WhenOpened": "2025-02-20T05:59:41.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameManager.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\GameManager.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameManager.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\GameManager.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwDEAAAAeAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T12:38:52.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\Scripts\\Bullet Scripts\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T15:39:01.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpawnItem.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T14:47:46.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T15:39:01.045Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "SpawnItem.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Drop Item Scripts\\SpawnItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T14:47:46.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Item.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Drop Item Scripts\\Item.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Drop Item Scripts\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Drop Item Scripts\\Item.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T14:39:28.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Spawner.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\Spawner Scripts\\Spawner.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAAA3AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T15:47:02.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Enemy.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCIAAABJAAAA",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T14:52:32.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T14:52:32.318Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "PlaneSwitcher.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneSwitcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAACoAAAAAAAAAAAAvwDkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T04:53:58.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BGScrolling.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScrolling.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T03:57:45.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BGScaler.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Background Scripts\\BGScaler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Background Scripts\\BGScaler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T03:51:41.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "PlaneBound.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\PlaneBound.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T14:32:35.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Plane.cs",
-              "DocumentMoniker": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
+              "DocumentMoniker": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
-              "ToolTip": "D:\\GitPrivate\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
+              "ToolTip": "D:\\GithubProject\\Spring2025_PRU212_NET1704_G6_Lab1\\Space Explorer\\Assets\\Scripts\\Plane Scripts\\Plane.cs",
               "RelativeToolTip": "Assets\\Scripts\\Plane Scripts\\Plane.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T13:55:49.73Z"
             }
