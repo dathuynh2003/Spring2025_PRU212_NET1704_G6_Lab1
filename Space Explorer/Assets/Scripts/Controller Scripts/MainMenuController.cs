@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
    public void PlayGameButton()
     {
-        Application.LoadLevel("GamePlay");
+        SceneManager.LoadScene("GamePlay");
     }
     public void QuitGameButton() 
     {

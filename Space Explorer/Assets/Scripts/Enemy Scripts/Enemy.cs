@@ -13,13 +13,23 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private GameObject explosionEffect; // Assign explosion effect in Unity
     private AudioManager audioManager;
+    private int isFollowingPlayer;
+    [SerializeField]private Plane player;
 
     private void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
+        if (!player)
+        {
+            player = GameObject.FindAnyObjectByType<Plane>();
+        }
         if (health <= 0)
         {
             health = Random.Range(3, 6); // random hp if not set in unity
+        }
+        if (isFollowingPlayer == 0)
+        {
+            isFollowingPlayer = Random.Range(-3, 5);
         }
 
         Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, 0, 0));
@@ -36,10 +46,15 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+        if (isFollowingPlayer >0)
+        {
+            FollowPlayer();
+        }
         if (transform.position.y < minY)
         {
             Destroy(gameObject);
         }
+
     }
 
     // Update is called once per frame
@@ -55,6 +70,15 @@ public class Enemy : MonoBehaviour
             audioManager.PlaySFX(audioManager.explosion);
             Die();
         }
+    }
+
+    private void FollowPlayer()
+    {
+        Vector2 direction = player.transform.position - transform.position; // Calculate the direction to the player
+        Vector2 moveDirection = direction.normalized; // Normalize the direction
+        Vector2 targetPosition = (Vector2)transform.position + moveDirection * enemySpeed * Time.deltaTime; // Calculate the target position
+
+        transform.position = targetPosition; // Move the enemy to the target position
     }
 
     void Die()
